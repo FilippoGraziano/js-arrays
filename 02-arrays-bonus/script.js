@@ -31,21 +31,21 @@ console.log(teachers);
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
-let isFabioPresent = `No`;
+let isFabioPresent = false;
 for (i = 0; i < teachers.length; i++) {
 
   if (teachers[i] === `Fabio`) {
-    isFabioPresent = `Yes`;
+    isFabioPresent = true;
     break;
   };
 };
 
-if (isFabioPresent === `Yes`) {
+if (isFabioPresent) {
   
-  console.log(`is Fabio present? ${isFabioPresent}, Fabio is present`);
+  console.log(`Yes, Fabio is present`);
 } else {
 
-  console.log(`is fabio present? ${isFabioPresent}, Fabio isn't present`);
+  console.log(`No, Fabio isn't present`);
 };
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString

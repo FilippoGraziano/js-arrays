@@ -41,5 +41,5 @@ console.log(lewisIndex)
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
 const isTeachersEmpty = teachers.length;
-if (isTeachersEmpty > 0) console.log(`isTeachersEmpty? No, is ${isTeachersEmpty} words long`);
-else console.log(`isTeacherEmpty? Yes, is empty`)
+if (isTeachersEmpty === 0)  console.log(`isTeacherEmpty? Yes, is empty`);
+else console.log(`isTeachersEmpty? No, is ${isTeachersEmpty} words long`);
